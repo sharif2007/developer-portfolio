@@ -4,6 +4,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 200px;
 
 }
 body {
@@ -40,4 +41,31 @@ padding: 15px 35px;
 nav a{
     text-decoration: none;
     color: #474747;
+}
+/* header related style */
+.header{
+    background-color: #FFF8F3;
+}
+.banner .profile-pic{
+    width: 500px;
+    height: 500px;
+}
+.banner{
+padding: 30px 30px 30px 150px;
+display: flex;
+align-items: center;
+}
+.bt-secondary{
+    background-color: white;
+    border: 0px;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+color: black;
+padding: 15px 35px;
+background-color: darkgrey;
+
+}
+div{
+    justify-content: space-between;
 }

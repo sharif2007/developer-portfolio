@@ -101,6 +101,11 @@ div {
 
 }
 
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
 .detail {
     margin-top: 0px;
     font-size: 28px;
@@ -129,10 +134,15 @@ div {
     font-size: 35px;
     font-weight: 700;
 }
-.about-description{
-    color: #757575;
-text-align: center;
-font-size: 18px; 
-}
 
-/* about section styles */
+.about-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+.about-info-con{
+    display: flex;
+}
+.about-info{
+    text-align: center;
+}

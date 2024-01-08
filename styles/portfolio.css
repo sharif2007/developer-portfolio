@@ -215,13 +215,45 @@ main section {
 .resume-con hr {
     margin: 30px 0px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
-footer{
+
+footer {
     display: flex;
     background: #FFF8F3;
     padding: 130px 230px;
     margin-top: 113px;
+    gap: 113px;
+}
+
+.footer-coloum {
+    width: 50%;
+}
+
+.Contract input,
+textarea {
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 349px 18px 30px;
+    border-radius: 5px;
+    background: #FFF;
+
+}
+
+.social-icon {
+    margin-right: 24px;
+}
+
+.footer-des {
+    color: #474747;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    border-radius: 5px;
+    background: #FFF;
 }
